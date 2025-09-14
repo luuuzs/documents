@@ -1,6 +1,6 @@
 {
-  "name": "zonix-docs",
-  "description": "Documentation and Anotations",
+  "name": "docus-docs",
+  "description": "Official documentation for Docus, also used as playground.",
   "type": "module",
   "scripts": {
     "build": "nuxt prepare ../layer && nuxt build --extends ../layer",
@@ -13,7 +13,7 @@
     "@nuxtjs/plausible": "^1.2.0",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
-    "zonix": "workspace:*",
+    "docus": "workspace:*",
     "tailwindcss": "^4.1.11",
     "unist-util-visit": "^5.0.0"
   },

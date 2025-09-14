@@ -117,7 +117,7 @@ Docus intègre le meilleur de l’écosystème Nuxt.
         icon: i-lucide-code
         label: Code
         ---
-        \`\`\`mdc
+        ```mdc
         ::note
         Voici des informations supplémentaires.
         ::
@@ -133,7 +133,7 @@ Docus intègre le meilleur de l’écosystème Nuxt.
         ::caution
         Cette action est irréversible.
         ::
-        \`\`\`
+        ```
         ::::::
       :::::
     
@@ -151,7 +151,7 @@ Docus intègre le meilleur de l’écosystème Nuxt.
     target: _blank
     ---
       :::::div{.bg-elevated.rounded-lg.p-3.overflow-x-auto}
-      \`\`\`ts [app.config.ts]
+      ```ts [app.config.ts]
       export default defineAppConfig({
         ui: {
           colors: {
@@ -164,7 +164,7 @@ Docus intègre le meilleur de l’écosystème Nuxt.
           nuxt: 'https://nuxt.com'
         }
       })
-      \`\`\`
+      ```
       :::::
     
     #title

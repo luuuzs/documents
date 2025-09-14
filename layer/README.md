@@ -24,9 +24,9 @@ This is the official Nuxt layer for [Docus](https://docus.dev), providing a comp
 
 ## 📦 Installation
 
-\`\`\`bash
+```bash
 npm install docus
-\`\`\`
+```
 
 ## 🏗️ Quick Setup
 
@@ -34,7 +34,7 @@ npm install docus
 
 The easiest way to get started is using the Docus CLI, which automatically sets up a project with this layer:
 
-\`\`\`bash
+```bash
 # Create a new documentation project
 npx create-docus my-docs
 
@@ -43,16 +43,16 @@ cd my-docs
 
 # Start development
 npm run dev
-\`\`\`
+```
 
 This creates a complete documentation project pre-configured with `docus`.
 
 For multi-language documentation, use the i18n template:
 
-\`\`\`bash
+```bash
 # Create a new i18n documentation project
 npx create-docus my-docs -t i18n
-\`\`\`
+```
 
 ### Option 2: Manual Setup
 
@@ -60,15 +60,15 @@ npx create-docus my-docs -t i18n
 
 Add the layer to your `nuxt.config.ts`:
 
-\`\`\`typescript
+```typescript
 export default defineNuxtConfig({
   extends: ['docus']
 })
-\`\`\`
+```
 
 For internationalization, also add the `@nuxtjs/i18n` module:
 
-\`\`\`typescript
+```typescript
 export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n'],
   i18n: {
@@ -79,19 +79,19 @@ export default defineNuxtConfig({
     ],
   }
 })
-\`\`\`
+```
 
 #### Option 2b: CLI Usage 
 
 Use directly with Nuxt CLI:
 
-\`\`\`bash
+```bash
 # Development
 nuxt dev --extends docus
 
 # Build
 nuxt build --extends docus
-\`\`\`
+```
 
 ## 🔗 Related Packages
 
@@ -113,4 +113,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-Made with ❤️ for the Nuxt community
+Made with ❤️ for the Nuxt community 

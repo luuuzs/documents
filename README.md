@@ -10,7 +10,7 @@
 
 Create a new documentation project in seconds:
 
-\`\`\`bash
+```bash
 # Create a new project
 npx create-docus my-docs
 
@@ -22,7 +22,7 @@ cd my-docs
 
 # Start development server
 npm run dev
-\`\`\`
+```
 
 That's it! Your documentation site will be running at `http://localhost:3000`
 
@@ -46,20 +46,20 @@ Learn more on the [Docus documentation](https://docus.dev).
 
 ### Generated project
 
-\`\`\`
+```
 my-docs/
 ├── content/              # Your markdown content
 │   ├── index.md         # Homepage
 │   └── docs/            # Documentation pages
 ├── public/              # Static assets
 └── package.json         # Dependencies and scripts
-\`\`\`
+```
 
 ### Optional files and folders
 
 Docus uses a layer system, you can go further and use any feature or file of a classical Nuxt project:
 
-\`\`\`
+```
 my-docs/
 ├── app.config.ts        # App configuration
 ├── nuxt.config.ts       # Nuxt configuration (add extra modules, components, etc.)
@@ -68,22 +68,22 @@ my-docs/
 │   ├── layouts/         # Layouts (add your own layouts)
 │   └── pages/           # Pages (add your own pages)
 └── server/              # Server-side code (add your own server-side code)
-\`\`\`
+```
 
 ### `/content` folder structure
 
 **Single language structure:**
-\`\`\`
+```
 content/
 ├── index.md
 ├── getting-started.md
 └── guide/
     ├── introduction.md
     └── configuration.md
-\`\`\`
+```
 
 **Multi-language structure (with i18n):**
-\`\`\`
+```
 content/
 ├── en/
 │   ├── index.md
@@ -93,7 +93,7 @@ content/
     ├── index.md
     └── guide/
         └── introduction.md
-\`\`\`
+```
 
 ## ⚡ Built with
 
@@ -119,7 +119,7 @@ This repository contains the CLI tool source code.
 
 To contribute to the CLI tool:
 
-\`\`\`bash
+```bash
 # Clone this repository
 git clone https://github.com/nuxt-content/docus
 
@@ -128,7 +128,7 @@ pnpm install
 
 # Run the dev server to run the docus docs
 pnpm run dev
-\`\`\`
+```
 
 ### Package Structure
 

@@ -119,7 +119,7 @@ Docus brings the best of the Nuxt ecosystem.
         icon: i-lucide-code
         label: Code
         ---
-        \`\`\`mdc
+        ```mdc
         ::note
         Here's some additional information.
         ::
@@ -135,7 +135,7 @@ Docus brings the best of the Nuxt ecosystem.
         ::caution
         This action cannot be undone.
         ::
-        \`\`\`
+        ```
         ::::::
       :::::
     
@@ -153,7 +153,7 @@ Docus brings the best of the Nuxt ecosystem.
     target: _blank
     ---
       :::::div{.bg-elevated.rounded-lg.p-3.overflow-x-auto}
-      \`\`\`ts [app.config.ts]
+      ```ts [app.config.ts]
       export default defineAppConfig({
         ui: {
           colors: {
@@ -166,7 +166,7 @@ Docus brings the best of the Nuxt ecosystem.
           nuxt: 'https://nuxt.com'
         }
       })
-      \`\`\`
+      ```
       :::::
     
     #title

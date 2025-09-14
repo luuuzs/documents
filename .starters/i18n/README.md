@@ -18,13 +18,13 @@ This is the i18n Docus starter template that provides everything you need to bui
 
 ## 🚀 Quick Start
 
-\`\`\`bash
+```bash
 # Install dependencies
 npm install
 
 # Start development server
 npm run dev
-\`\`\`
+```
 
 Your multilingual documentation site will be running at `http://localhost:3000`
 
@@ -36,7 +36,7 @@ This starter comes pre-configured with:
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 my-docs/
 ├── content/              # Your markdown content
 │   ├── en/              # English content
@@ -48,13 +48,13 @@ my-docs/
 ├── public/              # Static assets
 ├── nuxt.config.ts       # Nuxt configuration with i18n setup
 └── package.json         # Dependencies and scripts
-\`\`\`
+```
 
 ### Content Structure
 
 The content is organized by language, making it easy to manage translations:
 
-\`\`\`
+```
 content/
 ├── en/                   # English content
 │   ├── index.md
@@ -72,7 +72,7 @@ content/
     └── 2.essentials/
         ├── markdown.md
         └── components.md
-\`\`\`
+```
 
 ## 🔗 URL Structure
 
@@ -102,12 +102,12 @@ For detailed documentation on customizing your Docus project, visit the [Docus D
 
 Build for production:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
 
 ## 📄 License
 
-[MIT License](https://opensource.org/licenses/MIT)
+[MIT License](https://opensource.org/licenses/MIT) 

@@ -1,10 +1,10 @@
 {
-  "name": "zonix-workspace",
-  "description": "Documentation and Anotations",
+  "name": "docus-workspace",
+  "description": "Minimal Documentation theme and CLI for shared usage across Nuxt modules",
   "version": "4.1.4",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opZywl/zonix.git"
+    "url": "git+https://github.com/nuxt-content/docus.git"
   },
   "private": true,
   "license": "MIT",
@@ -29,35 +29,7 @@
     "nuxt": "4.1.0",
     "release-it": "^19.0.4",
     "typescript": "^5.9.2",
-    "vue-tsc": "^3.0.6",
-    "@types/react": "19.1.13",
-    "@types/react-dom": "19.1.9",
-    "@types/node": "24.4.0",
-    "tailwindcss": "4.1.13",
-    "postcss": "8.5.6"
+    "vue-tsc": "^3.0.6"
   },
-  "packageManager": "pnpm@10.15.1",
-  "dependencies": {
-    "citty": "0.1.6",
-    "nuxi": "3.28.0",
-    "@vercel/analytics": "1.5.0",
-    "@vercel/speed-insights": "1.2.0",
-    "@nuxtjs/i18n": "10.1.0",
-    "@nuxt/content": "3.7.0",
-    "@nuxt/kit": "4.1.2",
-    "ufo": "1.6.1",
-    "defu": "6.1.4",
-    "exsolve": "1.0.7",
-    "minimark": "0.2.0",
-    "pkg-types": "2.3.0",
-    "git-url-parse": "16.1.0",
-    "next": "15.5.3",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
-    "class-variance-authority": "0.7.1",
-    "clsx": "2.1.1",
-    "lucide-react": "0.544.0",
-    "tailwind-merge": "3.3.1",
-    "tailwindcss-animate": "1.0.7"
-  }
+  "packageManager": "pnpm@10.15.1"
 }

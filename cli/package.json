@@ -1,5 +1,5 @@
 {
-  "name": "create-zonix",
+  "name": "create-docus",
   "description": "CLI for creating Docus documentation projects",
   "version": "4.1.4",
   "repository": {
@@ -9,7 +9,7 @@
   "private": false,
   "license": "MIT",
   "bin": {
-    "create-zonix": "dist/main.mjs"
+    "create-docus": "dist/main.mjs"
   },
   "files": [
     "dist"
