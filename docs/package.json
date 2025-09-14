@@ -15,7 +15,8 @@
     "@vercel/speed-insights": "^1.2.0",
     "docus": "workspace:*",
     "tailwindcss": "^4.1.11",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "^5.0.0",
+    "pkg-types": "^2.3.0"
   },
   "devDependencies": {
     "nuxt": "4.1.0"
