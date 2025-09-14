@@ -1,0 +1,23 @@
+{
+  "name": "zonix-docs",
+  "description": "Documentation and Anotations",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt prepare ../layer && nuxt build --extends ../layer",
+    "dev": "nuxt dev --extends ../layer"
+  },
+  "dependencies": {
+    "@nuxt/ui-pro": "^3.3.0",
+    "@nuxtjs/i18n": "^10.0.3",
+    "@nuxtjs/mdc": "^0.17.2",
+    "@nuxtjs/plausible": "^1.2.0",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
+    "zonix": "workspace:*",
+    "tailwindcss": "^4.1.11",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "nuxt": "4.1.0"
+  }
+}
